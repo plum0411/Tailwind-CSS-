@@ -7,9 +7,10 @@ function App() {
     <div className="App">
       1. <div class="w-32 h-32 bg-sky-200 pl-8 pr-4 py-8 m-4 rounded-3xl border border-sky-400"></div>
       <br />
-      2. <br />
+      2. <br />div:
       <div class="bg-green-200 text-red-500 w-20 font-bold text-center">text</div>
-      <br /><button class="bg-green-200 text-red-500 px-6 font-bold">text</button><br /><br />
+      button:<br />
+      <button class="bg-green-200 text-red-500 px-6 font-bold">text</button><br /><br />
       3. <button class="bg-sky-500 hover:bg-sky-700 rounded-full py-2 px-5 text-white font-bold">
         Save changes
       </button><br /><br />
