@@ -1,18 +1,10 @@
-/** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+//  ~/tailwind.config.js
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js,vue}'],
+  content: ["./src/**/*.{html,js,vue}"],
   theme: {
-    fontFamily: {
-    },
-    extend: {
-      colors: {
-      },
-      spacing: {
-      },
-      borderRadius: {
-      }
-    }
+    extend: {},
   },
+  plugins: [],
 }
